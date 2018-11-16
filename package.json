@@ -1,0 +1,17 @@
+{
+  "name": "wechat-app-compat",
+  "version": "0.1.0",
+  "description": "fetch and WebSocket polyfill for wechat mini apps",
+  "main": "index.js",
+  "repository": "https://github.com/zh217/wechat-app-compat",
+  "author": "Ziyang Hu",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "wxapp-fetch": "^0.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
