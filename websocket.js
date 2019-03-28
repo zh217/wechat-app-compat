@@ -47,7 +47,7 @@ class WxWebSocket {
         return (status) => {
             console.log(`WebSocket closed with result ${JSON.stringify(status)}`);
             this.readyState = WxWebSocket.CLOSED;
-            this.onclose && this.onlose.apply(null, arguments);
+            this.onclose && this.onclose.apply(null, arguments);
         }
     }
 

@@ -1,6 +1,6 @@
 {
   "name": "wechat-app-compat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "fetch and WebSocket polyfill for wechat mini apps",
   "main": "index.js",
   "repository": "https://github.com/zh217/wechat-app-compat",
